@@ -7,7 +7,15 @@ int main(int argc, char *argv[])
 
 
 	{
-	printf("I am Yeeun!\n");
+	int x;
+	short y;
+	float w;
+	double q;
+	
+	printf("bytes of int : %d\n", sizeof(x) );
+	printf("bytes of short : %d\n", sizeof(y) );
+	printf("bytes of float : %d\n", sizeof(w) );
+	printf("bytes of double : %d\n", sizeof(q) );
 	
 	return 0;
 	}	
